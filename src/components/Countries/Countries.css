@@ -17,6 +17,35 @@
 
 .country-container{
     display:grid;
-    grid-template-columns:repeat(4, 1fr);
-    gap:15;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10;
+}
+.country-name{
+    color:purple;
+}
+.visited-btn{
+    background:greenyellow;
+    font-weight:bold;
+    color:white;
+    margin:5px;
+}
+
+.active{
+    background-color:green;
+    color:white;
+}
+.unactive{
+    background-color:red;
+}
+
+@media only screen and (max-width: 768px) {
+    .countries img{
+        width:230px;
+        height:170px;
+    }
+    .country-container{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:10;
+    }
 }
