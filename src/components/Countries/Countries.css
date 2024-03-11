@@ -1,0 +1,22 @@
+.heading{
+    font-size:26px;
+    color:purple;
+    padding-bottom:10px;
+    border-bottom:2px solid purple;
+}
+.countries{
+    border:2px solid skyblue;
+    margin:15px;
+    padding:15px;
+    border-radius:15px;
+}
+.countries img{
+    width:350px;
+    height:200px;
+}
+
+.country-container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:15;
+}
